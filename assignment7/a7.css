@@ -1,0 +1,170 @@
+body{
+    background-color:gray;
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 5px solid darkblue;
+    background-color: #ffffff;
+    display: grid;
+   
+   
+  }
+
+#contain{
+  background-image: linear-gradient(to bottom,rgb(74, 74, 206),darkblue);
+  grid-column: span 12;
+}
+  nav {
+    grid-column: span 12;
+  }
+
+  nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    display: inline-flex;
+    border-bottom: 3px solid darkblue;
+}
+nav li{
+  font-family: Arial, Helvetica, sans-serif;
+  display:inline-block;
+  padding:20px;
+  margin:0px;
+  width:200px;
+  background-image: linear-gradient(to bottom,rgb(74, 74, 206),darkblue);
+  color: white;
+}
+nav li a{
+    text-decoration:none;
+    color:lightblue;
+    font-weight: bold;
+  }
+
+nav li a:hover{
+  background-image: linear-gradient(to bottom,rgb(74, 74, 206),darkblue);
+    color:white;
+}
+  
+nav li a.active-page{
+  color: white;
+}
+
+#welcome{
+  grid-column: span 9 ;
+}
+  .floatimg {
+    float: left;
+    border: 4px solid darkblue;
+    margin-right: 20px;
+    margin-bottom: 20px;
+     }  
+
+     .floatimgr {
+      float: right;
+      border: 4px solid darkblue;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    
+       }  
+.para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    color: lightblue;
+    grid-column: span  12;
+    padding:20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+h1{
+  font-weight: normal;
+}
+
+main{
+  grid-column: span 8;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+#second{
+    grid-column: span 12;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+
+aside{
+  grid-column: span 4;
+  background-color: lightblue;
+  padding: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+
+h2{
+    font-family: Helvetica, sans-serif;
+    border-bottom: 4px solid darkblue;
+    color: darkblue;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    
+}
+
+
+  footer{
+    background-color: rgb(193, 13, 13);
+    border-top: 5px solid darkblue;
+    grid-column: span 12;
+    
+  }
+
+  .red{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+ .red:hover{
+    color: blue;
+    text-decoration: underline;
+ }
+
+ #wp{
+  color: lightblue;
+  text-decoration: none;
+ }
+
+ #wp:hover{
+  color: white;
+ }
+
+ .row {
+  display: flex;
+  grid-column: span 12;
+  margin: 20px;
+}
+
+.column {
+  flex: 33.33%;
+  padding-top: 10px;
+  padding: 20px;
+}
+
+.gall-text{
+ padding-top: 0px;
+ font-weight: normal;
+ margin-right: 1px;
+}
